@@ -1,7 +1,7 @@
 # grpc_sample
 
 ## 使用言語
-go1.12.6 darwin/amd64
+go1.12.9 darwin/amd64
 
 ## 環境構築
 ### go module使用準備
@@ -16,4 +16,7 @@ go1.12.6 darwin/amd64
 
 ### protocプラグインインストール
 ```go get -u github.com/golang/protobuf/protoc-gen-go```
+
+####コード生成　　
+```protoc --go_out=plugins=grpc:./pb proto/book.proto```
 

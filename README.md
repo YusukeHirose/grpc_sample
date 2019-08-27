@@ -10,3 +10,10 @@ go1.12.6 darwin/amd64
 
 ### gRPCインストール
 ```go get -u google.golang.org/grpc```
+
+### protocインストール
+```brew install protobuf```
+
+### protocプラグインインストール
+```go get -u github.com/golang/protobuf/protoc-gen-go```
+

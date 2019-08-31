@@ -17,7 +17,8 @@ go1.12.9 darwin/amd64
 ### protocプラグインインストール
 ```go get -u github.com/golang/protobuf/protoc-gen-go```
 
-#### コード生成　　
+#### コード生成
+```cd proto```
 ```protoc --go_out=plugins=grpc:./pb book.proto```
 
 #### document生成
